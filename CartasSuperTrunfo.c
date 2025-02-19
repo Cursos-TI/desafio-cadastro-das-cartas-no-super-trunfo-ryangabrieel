@@ -76,7 +76,7 @@ int main(){
     printf("O PIB total é: %d\n", PIB_2);
     printf("Quantidade de pontos turísticos é: %d\n", pontos_turisticos_2);
 
-
+//
     // ----------------------------------------------------------------------------
 
 }
