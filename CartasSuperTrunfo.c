@@ -10,73 +10,68 @@ int main(){
     int pontos_turisticos = 4;
 
     //Codigo da Segunda Carta
-    char letra_2 = 'B';
-    char nome_2[50] = "Ourinhos";
-    int CEP_2 = 13054351;
-    int pessoas_2 = 103970;
-    int PIB_2 = 4000000;
-    int pontos_turisticos_2 = 10;
+    char letra2 = 'B';
+    char nome2[50] = "Ourinhos";
+    int CEP2 = 13054351;
+    int pessoas2 = 103970;
+    int PIB2 = 4000000;
+    int pontos_turisticos2 = 10;
 
     // ----------------------------------------------------------------------------
     // Separação de Código
-    // Carta 1
 
     printf("Escolha a letra da primeira carta: ");
-    scanf ("%c", &letra);
-    
-    printf("Digite um nome de uma cidade: ");
-    scanf ("%s", nome);
-
-    printf("Digite o CEP: ");
-    scanf ("%d", &CEP);
-
-    printf("Quantidade total de pessoas dessa cidade: ");
-    scanf ("%d", &pessoas);
-    
-    printf("Qual o PIB (aproximadamente) total desse lugar?: ");
-    scanf ("%d", &PIB);
-
-    printf("Quantidades de pontos turisticos: ");
-    scanf ("%d", &pontos_turisticos);
-
-    //----------------------------------------------------------------------------
-
+    scanf("%c", &letra);
     printf("Escolha a letra da segunda carta: ");
-    scanf ("%c\n", &letra_2);
+    scanf("%c\n", &letra2);
+
+
+    printf("Digite um nome da primeira cidade: ");
+    scanf("%s", nome);
+    printf("Digite um nome para a segunda cidade: ");
+    scanf("%s\n", nome2);
+
+
+    printf("Digite o CEP da primeira carta: ");
+    scanf("%d", &CEP);
+    printf("Digite o segundo CEP: ");
+    scanf("%d\n", &CEP2);
+
+
+    printf("Quantidade total de pessoas da primeira cidade: ");
+    scanf("%d", &pessoas);
+    printf("Quantidade total de pessoas da segunda cidade: ");
+    scanf("%d", &pessoas2);
+
     
-    printf("Digite um nome de outra cidade: ");
-    scanf ("%s\n", nome_2);
+    printf("Qual o PIB (aproximadamente) total do primeiro lugar?: ");
+    scanf("%d", &PIB);
+    printf("Qual o PIB (aproximadamente) total do segundo lugar?: ");
+    scanf("%d", &PIB2);
 
-    printf("Digite o CEP: ");
-    scanf ("%d\n", &CEP_2);
+    printf("Quantidades de pontos turisticos da primeira carta: ");
+    scanf("%d", &pontos_turisticos);
+    printf("Quantidades de pontos turisticos da segunda carta: ");
+    scanf("%d", &pontos_turisticos2);
 
-    printf("Quantidade total de pessoas dessa segunda cidade: ");
-    scanf ("%d\n", &pessoas_2);
-    
-    printf("Qual o PIB (aproximadamente) total desse lugar?: ");
-    scanf ("%d\n", &PIB_2);
-
-    printf("Quantidades de pontos turisticos: ");
-    scanf ("%d\n", &pontos_turisticos_2);
     // ----------------------------------------------------------------------------
 
-    printf("Detalhes da PRIMEIRA CARTA");
-    printf("A letra da carta é: %c\n", letra);
-    printf("O nome da ciddade é: %s\n", nome);
-    printf("O CEP é: %d\n", CEP);
-    printf("A quantidade total é: %d\n", pessoas);
-    printf("O PIB total é: %d\n", PIB);
-    printf("Quantidade de pontos turísticos é: %d\n", pontos_turisticos);
+    //printf("Detalhes da PRIMEIRA CARTA");
+    //printf("A letra da carta é: %c\n", letra);
+    //printf("O nome da ciddade é: %s\n", nome);
+    //printf("O CEP é: %d\n", CEP);
+    //printf("A quantidade total é: %d\n", pessoas);
+   // printf("O PIB total é: %d\n", PIB);
+   // printf("Quantidade de pontos turísticos é: %d\n", pontos_turisticos);
 
-    printf("Detalhes da SEGUNDA CARTA");
-    printf("A letra da carta é: %c\n", letra_2);
-    printf("O nome da ciddade é: %s\n", nome_2);
-    printf("O CEP é: %d\n", CEP_2);
-    printf("A quantidade total é: %d\n", pessoas_2);
-    printf("O PIB total é: %d\n", PIB_2);
-    printf("Quantidade de pontos turísticos é: %d\n", pontos_turisticos_2);
+    //printf("Detalhes da SEGUNDA CARTA");
+    //printf("A letra da carta é: %c\n", letra_2);
+    //printf("O nome da ciddade é: %s\n", nome_2);
+    //printf("O CEP é: %d\n", CEP_2);
+    //printf("A quantidade total é: %d\n", pessoas_2);
+    //printf("O PIB total é: %d\n", PIB_2);
+    //printf("Quantidade de pontos turísticos é: %d\n", pontos_turisticos_2);
 
-//
     // ----------------------------------------------------------------------------
 
 }
