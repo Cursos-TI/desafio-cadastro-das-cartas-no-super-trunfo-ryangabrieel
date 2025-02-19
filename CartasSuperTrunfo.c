@@ -1,22 +1,45 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+    char opção = 'A';
+    char nome[50] = "Cambara";
+    int CEP = 86390000;
+    int população = 25000;
+    int PIB = 815000000;
+    int pontos_turísticos = 4;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // ----------------------------------------------------------------------------
+    // Separação de Código
+    // Carta 1
 
-    return 0;
+    printf("Escolha a opção: ");
+    scanf ("%c", &opção);
+    printf("A primeira carta é: %c\n", opção);
+
+    printf("Digite o nome da Cidade: ");
+    scanf ("%s", nome);
+    printf("O nome da primeira ciddade é: %s\n", nome);
+
+    printf("Qual o CEP da cidade escolhida?: ");
+    scanf ("%d", &CEP);
+    printf("O CEP é: %d\n", CEP);
+
+    printf("Qual a quantidade da população?: ");
+    scanf ("%d", &população);
+    printf("A quantidade total é: %d\n", população);
+
+    printf("Qual o PIB (aproximadamente)?: ");
+    scanf ("%d", &PIB);
+    printf("O PIB total é: %d\n", PIB);
+
+    printf("Quantos pontos turísticos tem nessa cidade?: ");
+    scanf ("%d", &pontos_turísticos);
+    printf("Quantidade de pontos turísticos é: %d\n", pontos_turísticos);
+
+    //printf("A primeira carta é: %c\n", opção);
+    //printf("O nome da primeira ciddade é: %s\n", nome);
+    //printf("O CEP é: %d\n", CEP);
+    //printf("A quantidade total é: %d\n", população);
+    //printf("O PIB total é: %d\n", PIB);
+    //printf("Quantidade de pontos turísticos é: %d\n", pontos_turísticos);
 }
